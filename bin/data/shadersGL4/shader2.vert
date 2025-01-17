@@ -1,4 +1,4 @@
-#version 460
+#version 410
 
 // these are for the programmable pipeline system
 uniform mat4 modelViewProjectionMatrix;
@@ -8,9 +8,8 @@ in vec2 texcoord;
 
 out vec2 texCoordVarying;
 
-void main()
-{
-    texCoordVarying = texcoord;
-    
-	gl_Position = modelViewProjectionMatrix * position;
+void main() {
+  texCoordVarying = texcoord;
+
+  gl_Position = modelViewProjectionMatrix * position;
 }
