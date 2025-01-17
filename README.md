@@ -1,6 +1,6 @@
 # About multiWindowExample
 
-![Screenshot of multiWindowExample](multiWindowExample.png)
+![Screenshot of multiWindowExample](./multiWindowExample.png)
 
 
 ### Learning Objectives
